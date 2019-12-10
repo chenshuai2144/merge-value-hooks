@@ -1,6 +1,6 @@
 {
   "name": "use-merge-value",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Easier to write a controlled component",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
