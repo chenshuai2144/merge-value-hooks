@@ -8,7 +8,7 @@
     "name": "chenshuai2144",
     "email": "qixian.cs@outlook.com"
   },
-  "repository": "https://github.com/chenshuai2144/merge-value-hooks/use-controlled-hooks",
+  "repository": "https://github.com/chenshuai2144/merge-value-hooks",
   "scripts": {
     "start": "father doc dev --storybook",
     "build": "father build",
