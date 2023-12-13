@@ -1,18 +1,16 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "esnext",
     "moduleResolution": "node",
-    "importHelpers": true,
-    "jsx": "react",
+    "baseUrl": "./",
+    "jsx": "preserve",
+    "declaration": true,
+    "skipLibCheck": true,
     "esModuleInterop": true,
-    "sourceMap": true,
-    "baseUrl": ".",
-    "strict": true,
     "paths": {
-      "@/*": ["src/*"]
-    },
-    "allowSyntheticDefaultImports": true
+      "@/*": ["src/*"],
+      "use-merge-value": ["src/index.ts"]
+    }
   },
   "exclude": ["examples"]
 }
