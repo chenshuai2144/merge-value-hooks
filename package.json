@@ -2,30 +2,37 @@
   "name": "use-merge-value",
   "version": "1.2.0",
   "description": "Easier to write a controlled component",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
+  "main": "./lib/index",
+  "module": "./es/index",
+  "files": [
+    "lib",
+    "es"
+  ],
   "authors": {
     "name": "chenshuai2144",
     "email": "qixian.cs@outlook.com"
   },
   "repository": "https://github.com/chenshuai2144/merge-value-hooks",
   "scripts": {
-    "start": "father doc dev --storybook",
+    "dev": "father dev",
     "build": "father build",
     "prettier": "prettier -c --write \"**/**\"",
-    "site": " build-storybook && gh-pages -d ./storybook-static",
     "prepublishOnly": "npm run build && np --no-cleanup --yolo --no-publish"
   },
   "peerDependencies": {
-    "react": ">= 16.x"
+    "react": ">= 16.2.0"
+  },
+  "dependencies": {
+    "rc-util": "^5.38.1"
   },
   "devDependencies": {
+    "@rc-component/father-plugin": "1.0.0",
     "@types/react": "^18.0.28",
-    "father": "^2.16.0",
+    "father": "^4.3.7",
     "np": "^5.2.1",
     "prettier": "^1.19.1",
     "react": "^18.2.0",
-    "typescript": "^3.3.3"
+    "typescript": "^5.3.3"
   },
   "license": "MIT"
 }

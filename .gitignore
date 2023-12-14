@@ -4,3 +4,5 @@
 /dist
 /.docz
 /node_modules
+es
+lib
